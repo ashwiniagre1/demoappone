@@ -23,6 +23,10 @@
     </amexio-body>
 
     <amexio-action>
+        <amexio-button [label]="'Cancel'" [icon]="'fa fa-times fa 2x'" [type]="'default'" [tooltip]="'Cancel'" [size]="'default'" [form-bind]="'cancelBtn'" (onClick)="onClick_cancelBtn($event)">
+        </amexio-button>
+        <amexio-button [label]="'Save'" [icon]="'fa fa-save fa 2x'" [type]="'green'" [tooltip]="'Save'" [size]="'default'" [form-bind]="'saveBtn'" (onClick)="onClick_saveBtn($event)">
+        </amexio-button>
 
     </amexio-action>
 </amexio-card>

@@ -26,6 +26,8 @@ export class UserregistrationComponent implements OnInit{
       input_phonenumber(eventData:any){} 
       focus_phonenumber(eventData:any){} 
         onSelection_gender(eventData:any){} 
+        onClick_cancelBtn(eventData:any){} 
+        onClick_saveBtn(eventData:any){} 
     ngOnInit(){
  	  }
  	 	
